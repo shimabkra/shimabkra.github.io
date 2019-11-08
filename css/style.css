@@ -74,7 +74,7 @@ nav ul li a {
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
-  text-transform: uppercase;
+  text-transform: none;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -109,7 +109,7 @@ p {
   height: 50px;
   line-height: 50px;
   padding: 0 30px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .btn:hover, .btn:focus {
@@ -127,7 +127,7 @@ p {
 .section-title h2 {
   font-size: 25px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .form-control {
@@ -142,7 +142,7 @@ p {
   padding-left: 10px;
   margin: 0 0 25px 0;
   line-height: 14px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .form-control:focus {
@@ -212,9 +212,8 @@ nav ul li a {
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .logo {
@@ -261,7 +260,7 @@ nav ul li a {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #fff;
 }
 
@@ -270,7 +269,7 @@ nav ul li a {
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #fff;
   font-weight: 500;
 }
@@ -342,7 +341,7 @@ nav ul li a {
   color: #292929;
   letter-spacing: 0.1em;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: none;
   display: block;
 }
 
@@ -417,7 +416,7 @@ nav ul li a {
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -603,7 +602,7 @@ nav ul li a {
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
-  text-transform: uppercase;
+  text-transform: none;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -625,7 +624,7 @@ nav ul li a {
   letter-spacing: 0.1em;
   font-weight: 500;
   margin-top: 0;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .credits {
