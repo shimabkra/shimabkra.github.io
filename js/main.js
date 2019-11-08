@@ -80,7 +80,7 @@ $(document).ready(function() {
   $(function() {
     typed.typed({
       strings: ["Atsushi Shimabukuro.", "Freelance Engineer.", "Developer."],
-      typeSpeed: 100,
+      typeSpeed: 80,
       loop: true,
     });
   });
