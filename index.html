@@ -7,8 +7,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>shimabkra Portfolio</title>
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta name="keywords" content="島袋,敦司,しまぶくろ,あつし,shimabkra,フリーランス,エンジニア,沖縄,東京">
+  <meta name="description" content="フリーランスエンジニア 島袋 敦司(シマブクロ アツシ)のポートフォリオサイトです。沖縄と東京で主に活動していますが、いろいろな場所・人と仕事がしたいです。簡単にどんなことができるか、どんな経歴かまとめているので興味があればどうぞ。仕事のキリが良いときに、時間見つけて不定期に更新します。" >
 
   <!-- Google Fonts -->
   <link
@@ -51,7 +51,9 @@
         <ul class="nav-menu list-unstyled">
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
+          <!--
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          -->
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
       </div>
@@ -97,8 +99,8 @@
               1986年1月生まれ、沖縄 or 東京在住。フリーランスのエンジニアです。
               バックエンド or コアシステム(Java, .Net)が得意です。
               プログラムだけでなく一通りインフラ周りも触れます。
-              現在は、フロントエンドも趣味で触っています。
-              音楽は、Jazz、Classic(インストものの生楽器系)。
+              現在は、フロントエンドとRustも趣味で勉強中。
+              好きなもの。音楽は、Jazz、Classic(インストものの生楽器系)。
               読書は、雑食。好きなご飯、立ち食いそば。
               ペット、うさぎ。
             </p>
@@ -106,11 +108,15 @@
                 History
             </p>
             <p class="separator">
-              2006.04 - 都内のレコーディングスタジオでアシスタントとして勤務。<br>
-              2007.03 - 同上挫折後、しばらくコールセンターで社会勉強。<br>
-              2011.05 - 結婚を気に、沖縄に帰郷後、沖縄の中小SIerに入社。<br>
-              2020.01 - フリーランスになる。<br>
-            </p>  
+              <span class="history">2006.04 - </span>
+              都内のレコーディングスタジオでアシスタントとして勤務。<br>
+              <span class="history">2007.03 - </span>
+              同上挫折後、しばらくコールセンターで社会勉強。<br>
+              <span class="history">2011.05 - </span>
+              結婚を気に、沖縄に帰郷後、沖縄の中小SIerに入社。<br>
+              <span class="history">2020.01 - </span>
+              フリーランスになる。<br>
+            </p>
           </div>
         </div>
       </div>
@@ -121,78 +127,69 @@
   <!-- start section services -->
   <div id="services">
     <div class="container">
+      <div class="section-title text-center">
+        <h2>Skills</h2>
+      </div>
 
       <div class="services-carousel owl-theme">
 
         <div class="services-block">
-
-          <i class="ion-ios-browsers-outline"></i>
-          <span>UI/UX DESIGN</span>
-          <p class="separator">To an English person, it will seem like simplified English,told me what </p>
+          <i class="ion-social-github-outline"></i>
+          <span>Programming Language</span>
+          <p class="separator">Java, JavaScript, C#, VB.Net, SQL</p>
         </div>
 
         <div class="services-block">
-
           <i class="ion-ios-lightbulb-outline"></i>
-          <span>BRAND IDENTITY</span>
-          <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
+          <span>Framework, Architecture</span>
+          <p class="separator">Spring, Struts, Seaser2, Node, React, Electron, WindowsForms, WPF, ASP.Net</p>
         </div>
 
         <div class="services-block">
-
-          <i class="ion-ios-color-wand-outline"></i>
-          <span>WEB DESIGN</span>
-          <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
+          <i class="ion-ios-folder-outline"></i>
+          <span>Database</span>
+          <p class="separator">Oracle, SQLServer, PostgreSQL, MySql</p>
         </div>
 
         <div class="services-block">
-
-          <i class="ion-social-android-outline"></i>
-          <span>MOBILE APPS</span>
-          <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
+          <i class="ion-ios-gear-outline"></i>
+          <span>Tool</span>
+          <p class="separator">VSCode, Eclipse, VisualStudio, Slack, Chatwork, Git, SVN, Redmine, Metabase</p>
         </div>
 
         <div class="services-block">
-
-          <i class="ion-ios-analytics-outline"></i>
-          <span>Analytics</span>
-          <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
+          <i class="ion-ios-person-outline"></i>
+          <span>Position</span>
+          <p class="separator">ProjectManager, ProjectLeader, Architecture, SystemDesigner, Programmer</p>
         </div>
 
         <div class="services-block">
-
-          <i class="ion-ios-camera-outline"></i>
-          <span>PHOTOGRAPHY</span>
-          <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
+          <i class="ion-ios-star-outline"></i>
+          <span>Fun(Music)</span>
+          <p class="separator">Jazz, Classic, Bass, Guiter, Pablo Casals, Scott LaFaro, Tom Ibarra, Gilad Hekselman</p>
         </div>
 
       </div>
-
     </div>
-
   </div>
   <!-- end section services -->
 
   <!-- start section portfolio -->
+  <!--
+
   <div id="portfolio" class="text-center">
 
     <div class="container">
       <div class="section-title text-center">
         <h2>My Portfolio</h2>
+        <p>Comming soon...</p>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-
           <div class="portfolio-list">
-
             <ul class="nav list-unstyled" id="portfolio-flters">
               <li class="filter filter-active" data-filter=".all">all</li>
               <li class="filter" data-filter=".branding">branding</li>
@@ -201,11 +198,9 @@
               <li class="filter" data-filter=".webdesign">web design</li>
               <li class="filter" data-filter=".photography">photography</li>
             </ul>
-
           </div>
 
           <div class="portfolio-container">
-
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
               <a class="popup-img" href="images/portfolio/1.jpg">
                 <img src="images/portfolio/1.jpg" alt="img">
@@ -241,13 +236,12 @@
                 <img src="images/portfolio/6.jpg" alt="img">
               </a>
             </div>
-
           </div>
         </div>
       </div>
     </div>
-
   </div>
+  -->
   <!-- End section portfolio -->
 
   <!-- start sectoion contact -->
@@ -262,8 +256,8 @@
               <h2 class="mb-30">GET IN TOUCH</h2>
 
               <ul class="contact-details">
-                <li><span>080-1063-3277</span></li>
                 <li><span>shimabukuro.base@gmail.com</span></li>
+                <li>まずは、メールで連絡ください。日本語で。。。</li>
               </ul>
             </div>
           </div>

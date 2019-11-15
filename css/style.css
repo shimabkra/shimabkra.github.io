@@ -321,13 +321,17 @@ nav ul li a {
   text-align: left;
 }
 
+#about .about-descr .history {
+  font-family: monospace;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*   Services
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
   position: relative;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -393,8 +397,10 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #portfolio {
+  background: #f7f7f7;
   position: relative;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 #portfolio .portfolio-list {
@@ -450,75 +456,11 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: #f7f7f7;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#journal .journal-block .journal-info {
-  position: relative;
-}
-
-.journal-block .journal-info img {
-  max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-/*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
+  background: #f7f7f7;
   height: auto;
   width: 100%;
 }
@@ -575,7 +517,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
